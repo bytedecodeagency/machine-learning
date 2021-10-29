@@ -71,7 +71,7 @@ y_predicted = predicted.reshape(predicted.shape[0], 1)
 
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(20, 10), dpi=80, facecolor='w', edgecolor='k')
+plt.figure(figsize=(8, 4), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(test, color="orange", label="Real value")
 plt.plot(predicted, color="c", label="RNN predicted result")
 plt.legend()
